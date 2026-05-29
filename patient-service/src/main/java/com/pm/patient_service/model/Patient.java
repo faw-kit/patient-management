@@ -15,6 +15,7 @@ public class Patient {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
+    @NotNull
     private UUID id;
 
     @NotNull

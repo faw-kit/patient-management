@@ -1,0 +1,6 @@
+### Base URL Configuration
+@baseUrl = http://localhost:4000
+
+### GET All Patients Request
+GET {{baseUrl}}/api/v1/patients
+Accept: application/json
